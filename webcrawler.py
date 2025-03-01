@@ -112,7 +112,7 @@ def main():
         print("URL не может быть пустым.")
         return
     user_agent = "MyWebCrawlerBot"
-    max_depth = 13
+    max_depth = 3
     crawl(start_url, max_depth, user_agent)
 
 if __name__ == "__main__":
